@@ -1,0 +1,8 @@
+.element__image {
+  width: 282px;
+  height: 282px;
+  object-fit: cover;
+  cursor: pointer;
+  background-color: #000000;
+  color: #FFFFFF;
+}

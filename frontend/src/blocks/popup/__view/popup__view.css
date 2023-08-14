@@ -1,0 +1,14 @@
+.popup__view {
+  
+  max-width: 75vw;
+  border-radius: 10px;
+  position: relative;
+  box-sizing: border-box;
+  box-shadow: 0px 0px 25px rgba(0, 0, 0, 0.15);
+}
+
+@media screen and (max-width: 530px) {
+  .popup__view {
+    width: 282px;
+  }
+}

@@ -1,0 +1,16 @@
+ .profile__avatar-box {
+
+  margin-right: 31px;
+}
+
+.profile__avatar-box:hover {
+  /* opacity: 0.8; */
+  /* position: relative; */
+   /* background-color:#000000; */
+  background-image: url(../../../images/edit.svg);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: 26px;
+  /* z-index: 5; */
+  margin-right: 31px;
+}  

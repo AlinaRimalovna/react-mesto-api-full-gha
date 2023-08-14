@@ -1,0 +1,24 @@
+.auth__input {
+  font-family: 'Inter', Arial, sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 17px;
+  color: #FFF;
+  border: 0;
+  border-bottom: 2px solid rgba(204, 204, 204, 1);
+  width: 358px;
+  padding-bottom: 9px;
+  background-color: #000;
+  margin-bottom: 30px;
+}
+
+/* .auth__input:focus {
+  outline-color: #80A6FF;
+}
+
+@media screen and (max-width: 530px) {
+  .auth__input {
+    max-width: 238px;
+  }
+} */

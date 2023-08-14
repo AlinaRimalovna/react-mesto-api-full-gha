@@ -1,0 +1,9 @@
+.popup__heading-add {
+ margin-right: 200px;
+}
+
+@media screen and (max-width: 530px) {
+  .popup__heading-add {
+    margin-right: 120px;
+  }
+}
