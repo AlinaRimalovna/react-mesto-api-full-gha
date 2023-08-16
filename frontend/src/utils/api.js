@@ -81,11 +81,13 @@
 }
 
 export const api = new Api({
-  url: 'http://localhost:4000',
+  url: 'https://api.alina-mesto.nomoreparties.co',
   headers: {
-    authorization: 'af28987c-eb8f-466e-946d-63fad4a279ae',
+    // authorization: 'af28987c-eb8f-466e-946d-63fad4a279ae',
     'Content-Type': 'application/json'
   }
 });
 
 // https://mesto.nomoreparties.co/v1/cohort-65
+
+// http://localhost:4000

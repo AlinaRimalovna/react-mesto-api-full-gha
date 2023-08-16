@@ -1,4 +1,4 @@
-export const BASE_URL = 'http://localhost:4000';
+export const BASE_URL = 'https://api.alina-mesto.nomoreparties.co';
 // mongodb://127.0.0.1:27017/mestodb
 // https://localhost:4000/
 // https://auth.nomoreparties.co
