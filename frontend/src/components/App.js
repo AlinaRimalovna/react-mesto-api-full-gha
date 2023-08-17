@@ -115,12 +115,14 @@ function App() {
   function handleLogin(email, password) {
     UserAuth.login(email, password)
     .then((data) => {
-      console.log(data);
+      console.log(email);
       // localStorage.setItem("jwt", data.token);
       setloggedIn(true);
+      setUserEmail(email);
       navigate('/');
     })
        .catch((err) => {
+        setRegister(false);
       handleInfoTooltipOpenFail();
       console.log(err)
     });

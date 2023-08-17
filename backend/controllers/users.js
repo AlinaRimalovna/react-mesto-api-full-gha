@@ -102,7 +102,7 @@ module.exports.login = (req, res, next) => {
           httpOnly: true,
           sameSite: true,
         });
-      return res.send({ _id: user._id });
+      return res.send({ _id: user._id, email: user.email });
     })
     .catch(next);
 };
